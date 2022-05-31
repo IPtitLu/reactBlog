@@ -1,0 +1,3 @@
+[submodule "reactBlogBack"]
+	path = reactBlogBack
+	url = git@github.com:Nephyrr/reactBlogBack.git
