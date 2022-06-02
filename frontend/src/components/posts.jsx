@@ -26,7 +26,7 @@ export default function Posts() {
             .then((response) => {
                 const allPosts = response.data['hydra:member']
 
-                console.log(posts)
+                console.log('posts 1 : ' + response.data)
                 getPosts(allPosts)
             })
             .catch((error) => {
@@ -34,13 +34,12 @@ export default function Posts() {
             });
     }
 
+    // console.log('posts 2 : ' + posts[1].content)
 
     return (
-        <div>En développement</div>
-        // posts.map(el => {
-        //     return (
-        //         <div>{el.title}</div>
-        //         )
-        // })
+        <div className={'post-container'}>
+            <div className={'post-line'}></div>
+            <small>Affichage des posts en développement</small>
+        </div>
     )
 }

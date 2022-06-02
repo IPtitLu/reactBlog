@@ -78,3 +78,15 @@ textarea:focus {
   width: 50%;
 }
 
+.post-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 20px 0;
+}
+
+.post-line {
+  border-bottom: 3px solid #35db35;
+  width: 100%;
+  margin: 40px 0;
+}

@@ -13,6 +13,7 @@ export default function Register() {
         RegisterApi(data)
 
         console.log(data)
+        window.alert('Inscription réussie')
     }
 
     return (

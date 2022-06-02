@@ -30,6 +30,8 @@ export async function LoginApi(data) {
             console.log(rep.data.token)
 
             setCookie('token', rep.data.token)
+
+            window.location.reload(false);
         })
         .catch((error) => {
             console.log("error", error);
